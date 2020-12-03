@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Spark & velocity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <!-- insertar la plantilla del encabezado de página -->
+    #parse("velocity/header.vm")
+    <!-- insertar la plantilla del encabezado de página -->
+    <section id="velocity">
+        #parse("header.vm")
+    </section>
+    <!-- insertar la plantilla del pie de página -->
+    #parse("velocity/footer.vm")
+    <!-- insertar la plantilla del pie de página -->
+    $hola
+    $personita.nombre
+</body>
+</html>

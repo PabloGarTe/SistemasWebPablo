@@ -1,0 +1,4 @@
+#set( $message = "Velocity" )
+<h1>$message</h1>
+<!-- insertamos el modelo -->
+<p>$fecha</p>
